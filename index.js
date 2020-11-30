@@ -1,4 +1,5 @@
-function fetchBooks("https://anapioficeandfire.com/api/books") {
+function fetchBooks() {
+  fetch('https://anapioficeandfire.com/api/books')
 .then(function(response){
   return response.json();
 })
